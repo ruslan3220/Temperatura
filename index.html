@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Temperatura konverteri</h1>
+      <form class="form">
+        <label class="form__label" for="celsiy">Harorat celsiyda</label>
+        <input
+          class="form__input"
+          type="number"
+          name="temperaturacel"
+          id="celsiy"
+          placeholder="C"
+          autocomplete="off"
+          required
+        />
+        <button class="btn" type="submit">Hisoblash</button>
+        <label class="form__label-last" for="farangeyt"
+          >Harorat farangeytda</label
+        >
+        <div class="form__input-last">K</div>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
